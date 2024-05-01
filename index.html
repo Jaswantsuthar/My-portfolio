@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jaswant Suthar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jaswant Suthar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img
+          src="./assets/WhatsApp Image 2024-04-29 at 21.46.36_336a7ab0.jpg"
+          alt="nothing"
+        />
+      </div>
+      <div class="section-container">
+        <div class="section_text">
+          <p class="section_text_p1">Hello, I'm</p>
+          <h1 class="title">Jaswant Suthar</h1>
+          <p class="section_text_p2">Web Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/j_s_resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#Contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="nothing"
+              class="icon"
+              onclick="location.href='https://linkedin.com'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="nothing"
+              class="icon"
+              onclick="location.href='https://github.com'"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/WhatsApp Image 2024-04-29 at 21.53.59_386e7b27.jpg"
+            alt="Profile"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h2>Jaswant Suthar</h2>
+            <p>
+              Passionate About Web Development Goal Is To Achieve A Good
+              Position By Doing Satisfying Work In IT Field, Strongly Focused To
+              Complate The Tasks In Fast-faced Envirnoment. <br />Innovative Web
+              Developer,designing and developing user-centered websites to a
+              polished deliverable product.
+            </p>
+          </div>
+          <div class="about-container">
+            <div class="details-container">
+              <img src="./assets/education.png" alt="education" class="icon" />
+              <h3>Education</h3>
+              <p>
+                B.sc. Computer Science <br />
+                Mba Business Analytics (Persuing)
+              </p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/dob.png" alt="education" class="icon" />
+              <h3>DOB</h3>
+              <p>26/05/2001</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/place.png" alt="education" class="icon" />
+              <h3>Place</h3>
+              <p>Pune, Maharastra</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="down"
+        class="icon arrow"
+        onclick="location.href='./#Experience'"
+      />
+    </section>
+    <section id="Experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>css</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mysql</h3>
+                  <p>basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>nodejs</h3>
+                  <p>learning</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>git</h3>
+                  <p>learning</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="down"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+      />
+    </section>
+    <section class="resume" id="education">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Education</h1>
+      <div class="eduction-item">
+        <div class="resume-item">
+          <h4>Persuing Mba &amp; Business Analytics</h4>
+          <h5>2022 - continue</h5>
+          <p><em>Modern Institute of Business Studies</em></p>
+        </div>
+        <div class="resume-item">
+          <h4>Bachelor of Science &amp; Computer Science</h4>
+          <h5>2019 - 2022</h5>
+          <p><em>Haribhai V. Desai collage, Pune</em></p>
+          <p>Grade:9.2 cgpa</p>
+        </div>
+        <div class="resume-item">
+          <h4>12th HSC &amp; Science</h4>
+          <h5>2017 - 2019</h5>
+          <p>
+            <em
+              >The New Millennium English Medium School & Jr. College, Dapodi,
+              Pune.</em
+            >
+          </p>
+          <p>Grade 60%</p>
+        </div>
+        <div class="resume-item">
+          <h4>10th SSC &amp;</h4>
+          <h5>2016 - 2017</h5>
+          <p><em>Kilbil High School & Jr. College Pune.</em></p>
+          <p>Grade 70%</p>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="down"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/google.png" alt="p1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Google Sheets</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaswantsuthar/google-sheet-clone'"
+              >
+                github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://jaswantsuthar.github.io/google-sheet-clone/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/car.png" alt="p1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Traffic Car Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaswantsuthar/car'"
+              >
+                github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://jaswantsuthar.github.io/car/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/blinkit.png" alt="p1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Blinkit clone</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaswantsuthar/github_clone'"
+              >
+                github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://jaswantsuthar.github.io/github_clone/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/portfolio.png" alt="p1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">portfolio</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaswantsuthar/my-portfolio'"
+              >
+                github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://jaswantsuthar.github.io/github_clone/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/employee.png" alt="p1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Employee management system</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Jaswantsuthar/employeemanagementsystem'"
+              >
+                github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://jaswantsuthar.github.io/my-portfolio/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="down" class="icon arrow"
+      onclick="location.href='./#Contact'"
+    </section>
+    <section id="Contact">
+      <p class="section_text_p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-section">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="email" class="icon contact-icon" />
+          <p>
+            <a href="mailto:jaswantsuthar2001@gmail.com"
+              >jaswantsuthar2001@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="email"
+            class="icon contact-icon"
+          />
+          <p><a href="www.linkedin.com/in/jaswant-suthar/">linkedin</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Jaswant suthar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
