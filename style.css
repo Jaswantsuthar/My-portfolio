@@ -248,6 +248,8 @@ section{
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+   
+    
 }
 .about-details-container{
     justify-content: center;
@@ -386,6 +388,7 @@ article .icon{
 
   #projects{
     position: relative;
+    
   }
   .coolor-container{
     border-color: rgb(189,  189, 189);
@@ -447,4 +450,7 @@ article .icon{
 
   footer p{
     text-align: center;
+  }
+  .over{
+    overflow-x: scroll;
   }
